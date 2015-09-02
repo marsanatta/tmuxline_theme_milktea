@@ -14,8 +14,9 @@ It's a config file of tmux which has to be loaded to tmux.conf
 
     - Unix users:
         ```sudo apt-get install tmux```
-2. copy milktea to a folder e.g. ~/tmux_themes/
-3. edit .tmux.conf in your home folder (if it doesn't exist, create one)
-4. add ```if-shell "test -f tmux_themes/milktea" "source tmux_themes/milktea"``` at the end of the file. (tmux_themes can be any folder where milktea is).
+2. Copy milktea to a folder e.g. ~/tmux_themes/
+3. Edit .tmux.conf in your home folder (if it doesn't exist, create one)
+4. Add ```if-shell "test -f tmux_themes/milktea" "source tmux_themes/milktea"``` at the end of the file. (tmux_themes can be any folder where milktea is).
+5. In the bash, run ```tmux source-file ~/.tmux.conf ``` to reload the tmux configuration
 
 Ok, done. Now you have a stylish tmux theme! Enjoy it.
